@@ -187,7 +187,7 @@ class UBahn extends Cell {
 }
 class Einkaufsstraße extends Cell {
   constructor() {
-    super("img/park.png", "Park", 100);
+    super("img/park.png", "Einkaufsstraße", 100);
     this.sidebar = new Sidebar();
     this.sidebar.add("button", {
       content: "Upgraden zu Spielplatz für 250",
